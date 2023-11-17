@@ -1,0 +1,32 @@
+<html>
+	
+	<head>
+		<title>What Happens To Carlights When The Car Goes In A Tunnel?</title>
+
+		<script>
+		window.setTimeout(function () {
+		window.location.reload();
+		},1000);
+
+		</script>
+	</head>
+<body>
+	{% if ((status)==0) %}
+		
+		<p> CAR is OUTSIDE TUNNEL! Switch off Headlights!</p>
+
+		<img src="../static/Car-on-road.png" height="100%" width="100%">
+
+{% endif %}
+
+{%if ((status)==1) %}
+
+<p> CAR is IN TUNNEL! Switch on Headlights!</p>
+
+		<img src="../static/car-in-tunnel-.png" height="100%" width="100%">
+
+{% endif %}
+
+</body>
+
+</html>
